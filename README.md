@@ -11,3 +11,7 @@ With composer
 And do not keep the `.git` file!
 
 Also, remember to customize your `composer.json` file with the right values for your project.
+
+##What's included?
+
+Just the basics: silex, twig and phpunit (just in `dev`) and the required boilerplate code
