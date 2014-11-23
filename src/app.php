@@ -2,7 +2,7 @@
 
 $app = new \Silex\Application;
 
-if (getenv('APPLICATION_ENV') == 'development') {
+if (isset($env) && in_array( $env, ['dev', 'development'])) {
     require_once __DIR__ . '/../resources/config/dev.php';
 } else {
     require_once __DIR__ . '/../resources/config/prod.php';
